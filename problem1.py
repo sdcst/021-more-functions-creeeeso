@@ -13,7 +13,9 @@ assert convertTemp(10,'C') == 50
 assert converTemp(32,'F') == 0
 """
 
-def convertTemp():
+def convertTemp(x,y):
+    x='C'
+    y='F'
     return
 
 def tests():
@@ -25,5 +27,5 @@ def tests():
     
 
 
-if __name__== "__main__":
+if x== "C":
     tests()
