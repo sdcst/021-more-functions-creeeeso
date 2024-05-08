@@ -18,8 +18,8 @@ def btcTocad(x):
     if x == str(x):
         return 'error'
     else:
-        cad = x * 45000
-        return cad
+        y = x * 45000
+        return y
 
 
 """
